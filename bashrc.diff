@@ -1,0 +1,12 @@
+--- .bashrc.org	2018-06-18 13:40:20.095000765 +0000
++++ .bashrc	2018-06-18 13:41:50.615000765 +0000
+@@ -94,6 +94,6 @@
+ # enable programmable completion features (you don't need to enable
+ # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
+ # sources /etc/bash.bashrc).
+-#if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
+-#    . /etc/bash_completion
+-#fi
++if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
++    . /etc/bash_completion
++fi
