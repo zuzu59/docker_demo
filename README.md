@@ -12,7 +12,7 @@ Pour démarrer une machine Ubuntu dans un container Docker
 
 Puis:
 
-./myubuntu/ubuntu_config.sh
+/myubuntu/ubuntu_config.sh
 
 Puis: CTRL+D
 
