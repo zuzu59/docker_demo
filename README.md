@@ -24,8 +24,10 @@ On peut lister les machines qui tournent avec:
 
 On peut effacer les containers avec
 
-```docker container kill containername```<br>
-```docker container rm containername```
+```
+docker container kill containername
+docker container rm containername
+```
 
 On peut lister les images avec:
 
