@@ -4,7 +4,7 @@
 # source: https://doc.ubuntu-fr.org/docker
 
 sudo apt-get update
-sudo -y apt-get install python-minimal
+sudo apt-get -y install python-minimal
 ./install_docker.sh
 sudo usermod -aG docker $LOGNAME
 
