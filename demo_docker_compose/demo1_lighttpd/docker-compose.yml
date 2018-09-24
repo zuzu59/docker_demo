@@ -1,0 +1,12 @@
+version: '3'
+services:
+
+    lighttpd:
+        #https://hub.docker.com/r/sebp/lighttpd/
+        image: sebp/lighttpd
+        volumes:
+            - .:/var/www/localhost/htdocs
+        ports:
+            - "8080:80"
+
+

@@ -2,7 +2,9 @@
 
 Petite démo de l'utilisation de Docker-compose avec l'installation d'une appli web qui utilise une DB REDIS
 
+Plus d'info sur:
 
+[https://docs.docker.com/compose/gettingstarted/](https://docs.docker.com/compose/gettingstarted/)
 
 
 Et ma petite documentation personnelle sur le sujet:
@@ -13,7 +15,7 @@ Docker, mais c'est si simple ;-)
 
 
 
-zf180924.1027
+zf180924.1032
 
 
 
