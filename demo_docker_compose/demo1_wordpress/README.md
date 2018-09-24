@@ -6,18 +6,21 @@ Source: https://docs.docker.com/compose/wordpress/#define-the-project
 
 Utilisation:
 
-Pour démarrer le tout:
+Pour démarrer le tout:<br>
 `./start.sh`
 
-Pour arrêter le tout:
+Après un certain temps, le service sera disponible sur:<br>
+`http://localhost:8000/`
+
+Pour arrêter le tout:<br>
 `./stop.sh`
 
-Pour effacer le tout:
+Pour effacer le tout:<br>
 `./purge.sh`
 
 
 
-Commandes utiles:
+## Commandes utiles:
 
 pour éditer le fichier:<br>
 `nano -ET4 docker-compose.yml`
@@ -38,7 +41,7 @@ pour entrer dans le container:<br>
 
 
 
-Et ma petite documentation personnelle sur le sujet:
+## Et ma petite documentation personnelle sur le sujet:
 
 Docker, mais c'est si simple ;-)
 
@@ -46,5 +49,5 @@ Docker, mais c'est si simple ;-)
 
 
 
-zf180924.1522
+zf180924.1526
 
