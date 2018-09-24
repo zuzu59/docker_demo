@@ -1,6 +1,18 @@
-# ./demo_doker_compose/demo1_lighttpd
+# ./demo_doker_compose/demo1_wordpress
 
-Petite démo de l'utilisation de Docker-compose avec l'installation d'une appli toute simple
+Petite démo de démarrer un service WordPress avec Docker-compose
+
+
+readme en cours d'édition !
+zf180924.1143
+
+
+
+
+
+
+
+
 
 Utilisation:
 
