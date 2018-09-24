@@ -1,13 +1,24 @@
 # ./demo_doker_compose/demo1_lighttpd
 
-Petite démo de l'utilisation de Docker-compose avec l'installation d'une appli toute simple
-
-Utilisation:
-
-./start.sh
+Petite démo pour une utilisation simple de Docker-compose avec l'installation d'un petit serveur web
 
 
-Commandes utiles:
+## Utilisation:
+
+Pour démarrer le tout:<br>
+`./start.sh`
+
+Après un certain temps, le service sera disponible sur:<br>
+`http://localhost:8080/`
+
+Pour arrêter le tout:<br>
+`./stop.sh`
+
+Pour effacer le tout:<br>
+`./purge.sh`
+
+
+## Commandes utiles:
 
 pour éditer le fichier:<br>
 `nano -ET4 docker-compose.yml`
@@ -27,8 +38,7 @@ pour entrer dans le container:<br>
 `docker exec -ti demo1_lighttpd_lighttpd_1 /bin/sh`
 
 
-
-Et ma petite documentation personnelle sur le sujet:
+## Et ma petite documentation personnelle sur le sujet:
 
 Docker, mais c'est si simple ;-)
 
@@ -36,5 +46,4 @@ Docker, mais c'est si simple ;-)
 
 
 
-zf180924.1131
-
+zf180924.1530
