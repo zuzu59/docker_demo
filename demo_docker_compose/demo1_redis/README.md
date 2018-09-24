@@ -1,13 +1,47 @@
 # ./demo_doker_compose/demo1_redis
 
-Petite démo de l'utilisation de Docker-compose avec l'installation d'une appli web qui utilise une DB REDIS
+Petite démo d'utilisation de Docker-compose avec l'installation d'un petit serveur web et REDIS
 
-Plus d'info sur:
-
+## Source:
 [https://docs.docker.com/compose/gettingstarted/](https://docs.docker.com/compose/gettingstarted/)
 
 
-Et ma petite documentation personnelle sur le sujet:
+## Utilisation:
+
+Pour démarrer le tout:<br>
+`./start.sh`
+
+Après un certain temps, le service sera disponible sur:<br>
+`http://localhost:5000/`
+
+Pour arrêter le tout:<br>
+`./stop.sh`
+
+Pour effacer le tout:<br>
+`./purge.sh`
+
+
+## Commandes utiles:
+
+pour éditer le fichier:<br>
+`nano -ET4 docker-compose.yml`
+
+pour démarrer le service:<br>
+`docker-compose up`<br>
+en mode background:<br>
+`docker-compose up -d`
+
+pour lister les services qui tournent:<br>
+`docker-compose ps`
+
+pour arrêter le service:<br>
+`docker-compose down`
+
+pour entrer dans le container:<br>
+`docker exec -ti demo1_lighttpd_lighttpd_1 /bin/sh`
+
+
+## Et ma petite documentation personnelle sur le sujet:
 
 Docker, mais c'est si simple ;-)
 
@@ -15,10 +49,5 @@ Docker, mais c'est si simple ;-)
 
 
 
-zf180924.1032
-
-
-
-
-
+zf180924.1541
 

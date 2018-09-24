@@ -1,10 +1,12 @@
 # ./demo_doker_compose/demo1_wordpress
 
-Petite démo de démarrer un service WordPress avec Docker-compose
+Petite démo pour démarrer un service WordPress avec Docker-compose
 
-Source: https://docs.docker.com/compose/wordpress/#define-the-project
+## Source: 
+[https://docs.docker.com/compose/wordpress/#define-the-project](https://docs.docker.com/compose/wordpress/#define-the-project)
 
-Utilisation:
+
+## Utilisation:
 
 Pour démarrer le tout:<br>
 `./start.sh`
@@ -17,7 +19,6 @@ Pour arrêter le tout:<br>
 
 Pour effacer le tout:<br>
 `./purge.sh`
-
 
 
 ## Commandes utiles:
@@ -49,5 +50,5 @@ Docker, mais c'est si simple ;-)
 
 
 
-zf180924.1526
+zf180924.1544
 
