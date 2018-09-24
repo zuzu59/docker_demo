@@ -37,9 +37,9 @@ pour lister les services qui tournent:<br>
 pour arrêter le service:<br>
 `docker-compose down`
 
-pour entrer dans le container:<br>
-`docker exec -ti demo1_lighttpd_lighttpd_1 /bin/sh`
-
+pour entrer dans leS containerS:<br>
+`docker-compose exec db bash`
+`docker-compose exec wordpress bash`
 
 
 ## Et ma petite documentation personnelle sur le sujet:
@@ -50,5 +50,4 @@ Docker, mais c'est si simple ;-)
 
 
 
-zf180924.1544
-
+zf180924.1614

@@ -38,7 +38,7 @@ pour arrêter le service:<br>
 `docker-compose down`
 
 pour entrer dans le container:<br>
-`docker exec -ti demo1_lighttpd_lighttpd_1 /bin/sh`
+`docker-compose exec lighttpd sh`
 
 
 ## Et ma petite documentation personnelle sur le sujet:
@@ -49,4 +49,4 @@ Docker, mais c'est si simple ;-)
 
 
 
-zf180924.1543
+zf180924.1607
