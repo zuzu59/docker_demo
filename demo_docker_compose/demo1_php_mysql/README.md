@@ -1,10 +1,11 @@
 # ./demo_doker_compose/demo1_php_mysql
-zf180925.1539
+zf180925.1545
 
 Petite démo pour démarrer très facilement un service PHP avec une DB MYSQL et phpmyadmin :-)
 
 ## Source: 
 [https://alysivji.github.io/php-mysql-docker-containers.html](https://alysivji.github.io/php-mysql-docker-containers.html)
+[https://pastebin.com/uieKAH2r](https://pastebin.com/uieKAH2r)
 
 
 ## Utilisation:
