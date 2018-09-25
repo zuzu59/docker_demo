@@ -1,4 +1,5 @@
 # ./demo_doker_compose/demo1_wordpress
+zf180925.1552
 
 Petite démo pour démarrer un service WordPress avec Docker-compose
 
@@ -38,8 +39,8 @@ pour arrêter le service:<br>
 `docker-compose down`
 
 pour entrer dans leS containerS:<br>
-`docker-compose exec db bash`
-`docker-compose exec wordpress bash`
+`docker-compose exec db bash`<br>
+`docker-compose exec wordpress bash`<br>
 
 
 ## Et ma petite documentation personnelle sur le sujet:
@@ -47,7 +48,3 @@ pour entrer dans leS containerS:<br>
 Docker, mais c'est si simple ;-)
 
 [https://drive.google.com/open?id=1XfmqM2_10ie_5dRs0U0oajgB7EioPJi_1ACtamhb1rY](https://drive.google.com/open?id=1XfmqM2_10ie_5dRs0U0oajgB7EioPJi_1ACtamhb1rY)
-
-
-
-zf180924.1614

@@ -1,4 +1,5 @@
 # ./demo_doker_compose/demo1_lighttpd
+zf180925.1553
 
 Petite démo pour une utilisation simple de Docker-compose avec l'installation d'un petit serveur web
 
@@ -46,7 +47,3 @@ pour entrer dans le container:<br>
 Docker, mais c'est si simple ;-)
 
 [https://drive.google.com/open?id=1XfmqM2_10ie_5dRs0U0oajgB7EioPJi_1ACtamhb1rY](https://drive.google.com/open?id=1XfmqM2_10ie_5dRs0U0oajgB7EioPJi_1ACtamhb1rY)
-
-
-
-zf180924.1607

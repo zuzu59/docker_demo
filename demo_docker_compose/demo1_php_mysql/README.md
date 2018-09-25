@@ -1,10 +1,10 @@
 # ./demo_doker_compose/demo1_php_mysql
-zf180925.1545
+zf180925.1546
 
 Petite démo pour démarrer très facilement un service PHP avec une DB MYSQL et phpmyadmin :-)
 
 ## Source: 
-[https://alysivji.github.io/php-mysql-docker-containers.html](https://alysivji.github.io/php-mysql-docker-containers.html)
+[https://alysivji.github.io/php-mysql-docker-containers.html](https://alysivji.github.io/php-mysql-docker-containers.html)<br>
 [https://pastebin.com/uieKAH2r](https://pastebin.com/uieKAH2r)
 
 
@@ -16,7 +16,7 @@ Pour démarrer le tout:<br>
 Après un certain temps, le service sera disponible sur:<br>
 `http://localhost:8100/`
 
-Et phpmyadmin sur (passwd root: my_secret_pw_shh):
+Et phpmyadmin sur (passwd root: my_secret_pw_shh):<br>
 `http://localhost:9191/`
 
 Pour arrêter le tout:<br>
@@ -42,9 +42,9 @@ pour lister les services qui tournent:<br>
 pour arrêter le service:<br>
 `docker-compose down`
 
-pour entrer dans leS containerS:<br>
-`docker-compose exec db bash`
-`docker-compose exec web bash`
+pour entrer dans les containers:<br>
+`docker-compose exec db bash`<br>
+`docker-compose exec web bash`<br>
 `docker-compose exec phpmyadmin sh`
 
 

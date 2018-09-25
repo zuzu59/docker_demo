@@ -1,4 +1,5 @@
 # ./demo_doker_compose/demo1_redis
+zf180925.1551
 
 Petite démo d'utilisation de Docker-compose avec l'installation d'un petit serveur web et REDIS
 
@@ -37,7 +38,8 @@ pour lister les services qui tournent:<br>
 pour arrêter le service:<br>
 `docker-compose down`
 
-pour entrer dans le container:<br>
+pour entrer dans les containers:<br>
+`docker-compose exec web sh`
 `docker-compose exec redis sh`
 
 
@@ -49,5 +51,4 @@ Docker, mais c'est si simple ;-)
 
 
 
-zf180924.1541
 
