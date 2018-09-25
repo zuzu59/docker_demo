@@ -1,5 +1,6 @@
-# source: https://alysivji.github.io/php-mysql-docker-containers.html
-
+# source: 
+# https://alysivji.github.io/php-mysql-docker-containers.html
+# https://pastebin.com/uieKAH2r
 
 version: '3'
 
@@ -24,4 +25,18 @@ services:
       - "8100:80"
     stdin_open: true
     tty: true
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    depends_on:
+        - db
+    external_links:
+        - db:mysql
+    ports:
+        - "9191:80"
+    environment:
+      MYSQL_USER: devuser
+      MYSQL_PASSWORD: devpass
+      MYSQL_ROOT_PASSWORD: my_secret_pw_shh
+      PMA_HOST: db
 
