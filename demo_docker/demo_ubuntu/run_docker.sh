@@ -1,6 +1,6 @@
 #!/bin/bash
 #Petit script pour arrêter, effacer, démarrer
-#zf180702.1122
+#zf180926.1451
 # source: https://doc.ubuntu-fr.org/docker
 
 THEIP=$(/sbin/ifconfig ens18 | /bin/grep "inet ad" | /usr/bin/cut -f2 -d: | /usr/bin/awk '{print $1}')
