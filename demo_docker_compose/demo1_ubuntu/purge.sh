@@ -5,7 +5,7 @@
 
 docker container kill titi1
 docker container rm titi1
-docker image rm titi:001
+docker image rm zubuntu
 
 docker container ls -a
 docker image ls
