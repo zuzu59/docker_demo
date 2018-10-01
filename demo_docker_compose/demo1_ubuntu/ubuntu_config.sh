@@ -1,9 +1,13 @@
 #!/bin/bash
 #Petit script pour configurer un petit ubuntu dans un container docker
-#zf180618.1632
-# source: https://doc.ubuntu-fr.org/docker
+#zf181001.1711
+# source: 
 
 apt-get update
+apt-get -y install htop
+
+exit
+
 apt-get -y install vim nano bash-completion command-not-found sudo net-tools patch git
 sleep 3
 patch -i /myubuntu/bashrc.diff /root/.bashrc
