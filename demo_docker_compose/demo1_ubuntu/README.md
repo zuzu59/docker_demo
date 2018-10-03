@@ -1,5 +1,5 @@
 # demo_docker_compose/demo1_ubuntu
-zf181003.1644
+zf181003.1646
 
 Création d'un container Ubuntu dans Docker afin de pouvoir se faire un cluster de machines virtuelles Ubuntu pour faire des tests de système
 
@@ -28,7 +28,7 @@ On peut redémarrer les containers avec:<br>
 `docker-compose start`
 
 On peut refaire un jeu de containers vierges sans refaire l'image source avec:<br>
-`docker-compose down`
+`docker-compose down`<br>
 `./start.sh`
 
 On peut effacer les containers et images utilisés ici avec:<br>
