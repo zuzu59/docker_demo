@@ -1,11 +1,8 @@
 #!/bin/bash
 #Petit script pour nettoyer tout le binz
-#zf180110
+#zf181003.1632
 
+docker container rm -f -v dev test master user1 user2 user3
+docker image rm -f zubuntu
 
-docker container kill dev
-docker container rm dev
-docker image rm -f demo1_ubuntu_zubuntu
-
-docker container ls -a
-docker image ls
+./list.sh
