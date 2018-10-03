@@ -15,6 +15,7 @@ RUN /root//ubuntu_config.sh
 COPY service_start.sh /root
 RUN chmod 755 /root/service_start.sh
 
+#ENTRYPOINT /root/service_start.sh
 ENTRYPOINT /root/service_start.sh
 WORKDIR /root
 

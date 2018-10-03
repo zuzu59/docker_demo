@@ -1,16 +1,57 @@
 # source: 
 # 
-# zf181002.1639
+# zf181003.1155
 
 version: '3'
 
 services:
-    zubuntu:
-        build: .
-
     dev:
-        image: demo1_ubuntu_zubuntu
+        build: .
+        image: zubuntu
         container_name: dev
         ports:
         - "5221:22"
-#        restart: always
+        stdin_open: true
+        tty: true
+
+    test:
+        image: zubuntu
+        container_name: test
+        ports:
+        - "5222:22"
+        stdin_open: true
+        tty: true
+
+    master:
+        image: zubuntu
+        container_name: master
+        ports:
+        - "5223:22"
+        stdin_open: true
+        tty: true
+
+    user1:
+        image: zubuntu
+        container_name: user1
+        ports:
+        - "5224:22"
+        stdin_open: true
+        tty: true
+
+    user2:
+        image: zubuntu
+        container_name: user2
+
+        ports:
+        - "5225:22"
+        stdin_open: true
+        tty: true
+
+    user3:
+        image: zubuntu
+        container_name: user3
+        ports:
+        - "5226:22"
+        stdin_open: true
+        tty: true
+
