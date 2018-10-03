@@ -3,9 +3,9 @@
 #zf180110
 
 
-docker container kill titi1
-docker container rm titi1
-docker image rm zubuntu
+docker container kill dev
+docker container rm dev
+docker image rm -f demo1_ubuntu_zubuntu
 
 docker container ls -a
 docker image ls

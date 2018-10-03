@@ -1,0 +1,42 @@
+# source: 
+# 
+# zf181002.1639
+
+version: '3'
+
+services:
+    dev:
+        image: zubuntu
+    container_name: dev
+    ports:
+        - "5221:22"
+
+    test:
+        image: zubuntu
+        container_name: test
+        ports:
+        - "5222:22"
+
+    master:
+        image: zubuntu
+        container_name: master
+        ports:
+        - "5223:22"
+
+    user1:
+        image: zubuntu
+        container_name: user1
+        ports:
+        - "5224:22"
+
+    user2:
+        image: zubuntu
+        container_name: user2
+        ports:
+        - "5225:22"
+
+    user3:
+        image: zubuntu
+        container_name: user3
+        ports:
+        - "5226:22"

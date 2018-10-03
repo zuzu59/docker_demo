@@ -1,0 +1,16 @@
+# source: 
+# 
+# zf181002.1639
+
+version: '3'
+
+services:
+    zubuntu:
+        build: .
+
+    dev:
+        image: demo1_ubuntu_zubuntu
+        container_name: dev
+        ports:
+        - "5221:22"
+#        restart: always
