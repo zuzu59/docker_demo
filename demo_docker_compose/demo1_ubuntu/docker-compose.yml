@@ -1,6 +1,6 @@
 # source: 
 # 
-# zf181003.1155
+# zf181003.1516
 
 version: '3'
 
@@ -9,8 +9,10 @@ services:
         build: .
         image: zubuntu
         container_name: dev
+        volumes:
+            - .:/myubuntu
         ports:
-        - "5221:22"
+            - "5221:22"
         stdin_open: true
         tty: true
 

@@ -1,12 +1,11 @@
 #!/bin/bash
 #Petit script pour démarrer le binz
-#zf181003.1132
+#zf181003.1500
 # source: 
 
 
 ./all_purge.sh
 
-#docker build -t zubuntu .
 docker-compose up -d
 ./list.sh
 
@@ -14,17 +13,13 @@ read -p "press [ENTER]"
 exit
 
 
+docker build -t zubuntu .
+./list.sh
 
+docker run -d -i --name="titi1" zubuntu
+./list.sh
 
-docker image ls
-echo -e "\npress [ENTER]" ; read p
-
-#docker run -d -i --name="titi1" zubuntu
-#echo -e "press [ENTER]" ; read p
-
-docker container ls -a
-echo -e "press [ENTER]" ; read p
-
-docker exec -ti dev /bin/bash
+#docker exec -ti dev /bin/bash
+docker exec -ti titi1 /bin/bash
 
 
