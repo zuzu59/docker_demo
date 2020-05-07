@@ -1,10 +1,12 @@
+#zf200507.2254
+
 version: '3'
 services:
 
     web:
-        image: hypriot/rpi-busybox-httpd
-#        volumes:
-#            - $PWD:/www/
+        image: liuyingshan/busybox-httpd
+        volumes:
+            - $PWD:/web/
         ports:
             - "8088:80"
         restart: always
