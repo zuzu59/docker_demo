@@ -7,7 +7,6 @@ services:
 #            - $PWD:/www/
         ports:
             - "8088:80"
-        tty: true
         restart: always
 
 
