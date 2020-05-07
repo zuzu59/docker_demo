@@ -1,0 +1,13 @@
+version: '3'
+services:
+
+    web:
+        image: hypriot/rpi-busybox-httpd
+#        volumes:
+#            - $PWD:/www/
+        ports:
+            - "8088:80"
+        tty: true
+        restart: always
+
+
