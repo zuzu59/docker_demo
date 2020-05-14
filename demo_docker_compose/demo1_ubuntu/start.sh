@@ -1,6 +1,6 @@
 #!/bin/bash
 #Petit script pour démarrer le binz
-#zf181003.1617, zf200514.1527
+#zf181003.1617, zf200514.1550
 # source:
 
 
@@ -16,7 +16,7 @@ echo -e "
 On peut entrer dans un container avec:
 
 docker-compose exec <nom du container> /bin/bash
-docker-compose exec dev /bin/bash
+docker-compose exec -u ubuntu dev /bin/bash
 
 Si on veut se connecter en ssh au container, il faut installer dans chaque container:
 
@@ -35,7 +35,7 @@ Pour installer mes petits utilitaires très facilement:
 
 read -p "press [ENTER]"
 
-docker-compose exec dev /bin/bash
+docker-compose exec -u ubuntu dev /bin/bash
 
 exit
 
